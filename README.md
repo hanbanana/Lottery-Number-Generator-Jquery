@@ -13,5 +13,5 @@ Jquery
 ## Screenshot
 * Main Page
 <p align="center">
-  <img width="200" height="200" src="./images/lotteryNumberGeneratorMain.PNG">
+  <img width="550" height="550" src="./images/lotteryNumberGeneratorMain.PNG">
 </p>
