@@ -32,7 +32,10 @@
             </button>
         </div>
     </div>
-    <div id="numberList">
+    <div class="text-center" id="numberList">
+            <button class="btn btn-primary btn-sm" id="clear-all">
+                    <h1>Delete All</span></h1>
+                </button>
         <h1 class="text-center" id="random-number"></h1>
     </div>
 
@@ -94,6 +97,10 @@
             // or
             // $(this).closest('div').remove();
         });
+
+        $("#clear-all").on("click", function() {
+            location.reload();
+        })
 
 
     </script>
