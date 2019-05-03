@@ -27,13 +27,13 @@
         <h1 class="display-4">Generate Powerball Lottery Numbers!</h1>
         <br>
         <div class="text-center">
-            <button class="btn btn-primary btn-lg" id="random-button">
+            <button class="btn btn-primary btn-sm" id="random-button">
                 <h1><span class="fa fa-question"></span></h1>
             </button>
         </div>
     </div>
     <div class="text-center" id="numberList">
-            <button class="btn btn-primary btn-sm" id="clear-all">
+            <button class="btn btn-outline-danger btn-sm" id="clear-all">
                     <h1>Delete All</span></h1>
                 </button>
         <h1 class="text-center" id="random-number"></h1>
@@ -82,7 +82,7 @@
                     redNumber = redRandomNumber;
                 };
 
-                $("#random-number").prepend("<div id='" + numbers + "'<br><hr>" + numbers.join(" - ") + "<span style='color: red'> - " + redNumber + "</span> <button id='delete'>X</button>");
+                $("#random-number").prepend("<div id='" + numbers + "'<br><hr>" + numbers.join(" - ") + "<span style='color: red'> - " + redNumber + "</span> <button type='button-sm' class='btn btn-light' id='delete'>X</button>");
             });
 
             // $("#delete").on("click", function () {
